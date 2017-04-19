@@ -237,3 +237,45 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+
+@media screen and (max-width: 980px) {
+  
+  p {
+    background-color: #333;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  
+  p {
+    background-color: #444;
+  }
+}
+
+
+@media screen and (max-width: 640px) {
+  
+  p {
+    background-color: #555;
+  }
+}
+
+
+  /* The wrapper's width will be 600px */
+  .wrapper {
+    width: 600px;
+  }
+}
+
+#main-content {
+  width: 100%;
+  margin-bottom: 20px;
+
+}
+
+#sidebar {
+  width: 100%;
+  }
+
+}
